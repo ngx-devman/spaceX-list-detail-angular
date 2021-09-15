@@ -1,0 +1,7 @@
+.arrow-back {
+  position: relative;
+  top: 60px;
+  left: 110px;
+  font-size: 24px;
+  z-index: 1;
+}
