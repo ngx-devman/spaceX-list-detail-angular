@@ -21,7 +21,7 @@ export class LaunchDetailsComponent {
   ) {
     this.galleryOptions = [
       {
-        width: '100%',
+        width: '90%',
         height: '700px',
         thumbnailsColumns: 4,
         thumbnails: true,
@@ -43,17 +43,17 @@ export class LaunchDetailsComponent {
       },
       {
         breakpoint: 1200,
-        width: '100%',
+        width: '90%',
         height: '600px'
       },
       {
         breakpoint: 800,
-        width: '100%',
+        width: '90%',
         height: '100%'
       },
       {
         breakpoint: 400,
-        width: '100%',
+        width: '90%',
         height: '100%'
       }
     ]
