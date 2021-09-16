@@ -22,7 +22,7 @@ export class LaunchDetailsComponent {
     this.galleryOptions = [
       {
         width: '90%',
-        height: '700px',
+        height: '650px',
         thumbnailsColumns: 3,
         thumbnails: true,
         imageSwipe: true,

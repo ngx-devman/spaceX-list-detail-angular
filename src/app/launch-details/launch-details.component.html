@@ -8,8 +8,8 @@
         <mat-card class="detail-card">
           <div *ngIf="launchDetails.links.mission_patch; else placeholder">
             <img
-              width="300"
-              height="300"
+              width="256"
+              height="256"
               mat-card-image
               [src]="launchDetails.links.mission_patch"
               alt="Mission patch of {{ launchDetails.mission_name }}"
@@ -17,8 +17,8 @@
           </div>
           <ng-template  #placeholder>
             <img
-              width="300"
-              height="300"
+              width="256"
+              height="256"
               mat-card-image
               src="https://s3.amazonaws.com/assets-investx-com/assets/v2/Images/Deal+Logo/spacex.png"
               alt="Mission patch of {{ launchDetails.mission_name }}"
