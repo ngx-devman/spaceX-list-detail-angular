@@ -23,7 +23,7 @@ export class LaunchDetailsComponent {
       {
         width: '90%',
         height: '700px',
-        thumbnailsColumns: 4,
+        thumbnailsColumns: 3,
         thumbnails: true,
         imageSwipe: true,
         imageArrows: false,
