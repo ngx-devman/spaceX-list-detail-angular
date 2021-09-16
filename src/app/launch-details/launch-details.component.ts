@@ -21,9 +21,9 @@ export class LaunchDetailsComponent {
   ) {
     this.galleryOptions = [
       {
-        width: '500px',
-        height: '450px',
-        thumbnailsColumns: 3,
+        width: '100%',
+        height: '700px',
+        thumbnailsColumns: 4,
         thumbnails: true,
         imageSwipe: true,
         imageArrows: false,
@@ -36,10 +36,25 @@ export class LaunchDetailsComponent {
         previewZoomMax: 2,
         thumbnailsArrows: true,
         imageAnimation: NgxGalleryAnimation.Slide,
-        imagePercent: 70,
-        thumbnailsPercent: 30,
+        imagePercent: 80,
+        thumbnailsPercent: 20,
         thumbnailsMargin: 10,
         thumbnailMargin: 10
+      },
+      {
+        breakpoint: 1200,
+        width: '100%',
+        height: '600px'
+      },
+      {
+        breakpoint: 800,
+        width: '100%',
+        height: '100%'
+      },
+      {
+        breakpoint: 400,
+        width: '100%',
+        height: '100%'
       }
     ]
     this.launchDetails$.subscribe(res => {

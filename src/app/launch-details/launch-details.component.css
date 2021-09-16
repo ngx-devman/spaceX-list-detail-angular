@@ -5,3 +5,12 @@
   font-size: 24px;
   z-index: 1;
 }
+
+img {
+  max-width: 450px;
+  max-height: 300px;
+}
+
+.detail-card {
+  max-width: 500px;
+}
